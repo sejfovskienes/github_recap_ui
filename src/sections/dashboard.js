@@ -3,7 +3,7 @@ import { Github, GitBranch, GitCommit, Star, Code, TrendingUp, Award, Zap } from
 
 // GitHub OAuth Configuration
 const GITHUB_CLIENT_ID = process.env.REACT_APP_GITHUB_CLIENT_ID;
-const REDIRECT_URI = window.location.origin;
+const REDIRECT_URI = "https://agenta-github-wrapped.vercel.app/";
 
 export default function GitHubRecap() {
   const [user, setUser] = useState(null);
